@@ -1,0 +1,103 @@
+ini_path=/home/zhangjiwei/pyfunc_test/RELEASE/Multi-parameter-LSM/./ini/
+inv_path=/home/zhangjiwei/pyfunc_test/RELEASE/Multi-parameter-LSM/./inv/
+Key: code, Value: code:/home/zhangjiwei/pyfunc_test/RELEASE/Multi-parameter-LSM/main_share_release.py
+
+Key: __name__, Value: main_para (type: str)
+
+Key: __package__, Value:  (type: str)
+
+Key: __file__, Value: /home/zhangjiwei/pyfunc_test/RELEASE/Multi-parameter-LSM/main_para.py (type: str)
+
+Key: __cached__, Value: /home/zhangjiwei/pyfunc_test/RELEASE/Multi-parameter-LSM/__pycache__/main_para.cpython-39.pyc (type: str)
+
+Key: soft_tv_scale, Value: 0.01 (type: float)
+
+Key: beta_tv, Value: 0.01 (type: float)
+
+Key: soft_l1_scale, Value: 0 (type: int)
+
+Key: beta_l1, Value: 0 (type: int)
+
+Key: smooth_l2_scale, Value: 0.0001 (type: float)
+
+Key: multi_step_length, Value: True (type: bool)
+
+Key: max_iter, Value: 500 (type: int)
+
+Key: admm_inner_iter_num, Value: 8 (type: int)
+
+Key: train_snr, Value: 30 (type: int)
+
+Key: code_debug, Value: True (type: bool)
+
+
+psf1 allocate on numpy
+psf1 shape is (100, 50, 31, 31)
+psf1 max is 1.0 at index (15, 0, 15, 15)
+psf1 max abs is 1.0 at index (15, 0, 15, 15)
+psf1 min is -0.5213027596473694 at index (35, 0, 13, 17)
+psf1 min abs is 0.0 at index (0, 0, 0, 0)
+psf1 mean is 9.693501851870678e-06
+psf1 mean of abs is 0.00958438403904438
+psf1 std is 0.030002083629369736
+psf1 std of abs is 0.02843000553548336
+there is no device
+dtype is float32
+in_arr.flags['C_CONTIGUOUS'] is True
+array_memory(in_arr) is 18.329620361328125
+
+psf2 allocate on numpy
+psf2 shape is (100, 50, 31, 31)
+psf2 max is 0.9406999945640564 at index (30, 0, 15, 15)
+psf2 max abs is 0.9406999945640564 at index (30, 0, 15, 15)
+psf2 min is -0.4917370676994324 at index (35, 0, 13, 17)
+psf2 min abs is 0.0 at index (0, 0, 0, 0)
+psf2 mean is 9.1231704573147e-06
+psf2 mean of abs is 0.008878217078745365
+psf2 std is 0.028426911681890488
+psf2 std of abs is 0.02700493298470974
+there is no device
+dtype is float32
+in_arr.flags['C_CONTIGUOUS'] is True
+array_memory(in_arr) is 18.329620361328125
+
+psf3 allocate on numpy
+psf3 shape is (100, 50, 31, 31)
+psf3 max is 0.9406999945640564 at index (30, 0, 15, 15)
+psf3 max abs is 0.9406999945640564 at index (30, 0, 15, 15)
+psf3 min is -0.508348822593689 at index (35, 0, 17, 15)
+psf3 min abs is 0.0 at index (0, 0, 0, 0)
+psf3 mean is 7.476619884982938e-06
+psf3 mean of abs is 0.008988304063677788
+psf3 std is 0.028525114059448242
+psf3 std of abs is 0.027071990072727203
+there is no device
+dtype is float32
+in_arr.flags['C_CONTIGUOUS'] is True
+array_memory(in_arr) is 18.329620361328125
+
+psf4 allocate on numpy
+psf4 shape is (100, 50, 31, 31)
+psf4 max is 0.9015969634056091 at index (32, 0, 15, 15)
+psf4 max abs is 0.9015969634056091 at index (32, 0, 15, 15)
+psf4 min is -0.4779123067855835 at index (35, 0, 13, 17)
+psf4 min abs is 0.0 at index (0, 0, 0, 0)
+psf4 mean is 8.096158126136288e-06
+psf4 mean of abs is 0.008470902219414711
+psf4 std is 0.02730163186788559
+psf4 std of abs is 0.025954246520996094
+there is no device
+dtype is float32
+in_arr.flags['C_CONTIGUOUS'] is True
+array_memory(in_arr) is 18.329620361328125
+
+dims=[400, 200]
+ihx=[  0   4   8  12  16  20  24  28  32  36  40  44  48  52  56  60  64  68
+  72  76  80  84  88  92  96 100 104 108 112 116 120 124 128 132 136 140
+ 144 148 152 156 160 164 168 172 176 180 184 188 192 196 200 204 208 212
+ 216 220 224 228 232 236 240 244 248 252 256 260 264 268 272 276 280 284
+ 288 292 296 300 304 308 312 316 320 324 328 332 336 340 344 348 352 356
+ 360 364 368 372 376 380 384 388 392 396]
+ihz=[  0   4   8  12  16  20  24  28  32  36  40  44  48  52  56  60  64  68
+  72  76  80  84  88  92  96 100 104 108 112 116 120 124 128 132 136 140
+ 144 148 152 156 160 164 168 172 176 180 184 188 192 196]

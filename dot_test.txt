@@ -1,0 +1,11 @@
+   forward: multiparameter_forward= lambda x: apply_operator_multiparameter_ND(forward_torch_for_op_list, x);
+
+   adjoint: multiparameter_adjoint= lambda x: apply_operator_multiparameter_ND(adjoint_torch_for_op_list, x);
+
+    x1x2_sum: 755.921844
+    y1y2_sum: 755.922470
+    x1x2_value: [415.38641357421875, 340.5354309082031]
+    y1y2_value: [564.029296875, 191.89317321777344]
+    Dot product test passed, times:0.18726754188537598
+
+
